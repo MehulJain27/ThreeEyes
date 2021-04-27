@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GestureDetectorCompat;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.GestureDetector;
@@ -14,7 +15,7 @@ import android.widget.Toast;
 public class MainActivity extends Activity implements
         GestureDetector.OnGestureListener,
         GestureDetector.OnDoubleTapListener{
-
+    // new code
     private static final String DEBUG_TAG = "Gestures";
     private GestureDetectorCompat mDetector;
 
@@ -50,6 +51,9 @@ public class MainActivity extends Activity implements
     public boolean onFling(MotionEvent event1, MotionEvent event2,
                            float velocityX, float velocityY) {
         Log.d(DEBUG_TAG, "onFling: " + event1.toString() + event2.toString());
+        Intent intent;
+        intent = new Intent(MainActivity.this, CompVisionAPI.class);
+        startActivityForResult(intent,0);
         return true;
     }
 

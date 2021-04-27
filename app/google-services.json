@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "266935936313",
+    "project_id": "threeeyes-60a55",
+    "storage_bucket": "threeeyes-60a55.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266935936313:android:d7f00135a66f3a86b074e8",
+        "android_client_info": {
+          "package_name": "com.example.vision"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "266935936313-u97f3cgpb2bctuunoi94bsicn0o2lptj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCWUHS1n8iRIJAVUOJ5oaiMR0DDeErRv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "266935936313-u97f3cgpb2bctuunoi94bsicn0o2lptj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
